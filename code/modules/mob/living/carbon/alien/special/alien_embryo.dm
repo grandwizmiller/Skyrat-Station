@@ -64,7 +64,7 @@
 
 
 
-/obj/item/organ/body_egg/alien_embryo/proc/AttemptGrow(var/kill_on_sucess=FALSE)
+/obj/item/organ/body_egg/alien_embryo/proc/AttemptGrow(var/kill_on_sucess=TRUE)
 	if(!owner || bursting)
 		return
 
@@ -105,8 +105,7 @@
 
 	var/mob/living/carbon/old_owner = owner
 	if(kill_on_sucess) //ITS TOO LATE
-		new_xeno.visible_message("<span class='danger'>[owner] violently retches up [new_xeno]!</span>", "<span class='userdanger'>You exit [owner], your previous host.</span>")
-		owner.adjustBruteLoss(60)
+		new_xeno.visible_message("<span class='danger'>[new_xeno] bursts out of [owner]!</span>", "<span class='userdanger'>You exit [owner], your previous host.</span>", "<span class='italics'>You hear organic matter ripping and tearing!</span>")
 		owner.apply_damage(rand(100,300),BRUTE,zone,FALSE) //Random high damage to torso so health sensors don't metagame.
 		var/obj/item/bodypart/B = owner.get_bodypart(zone)
 		B.drop_organs(owner) //Lets still make the death gruesome and impossible to just simply defib someone.

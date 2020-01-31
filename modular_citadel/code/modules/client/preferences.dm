@@ -24,7 +24,7 @@
 	var/cit_toggles = TOGGLES_CITADEL
 
 	// stuff that was in base
-	max_save_slots = 30
+	max_save_slots = 10
 
 
 /datum/preferences/New(client/C)
