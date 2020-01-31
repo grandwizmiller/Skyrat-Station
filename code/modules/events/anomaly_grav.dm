@@ -2,7 +2,7 @@
 	name = "Anomaly: Gravitational"
 	typepath = /datum/round_event/anomaly/anomaly_grav
 	max_occurrences = 5
-	weight = 10
+	weight = 20
 	gamemode_blacklist = list("dynamic")
 
 

@@ -148,7 +148,6 @@ GLOBAL_LIST_EMPTY(objectives)
 				var/obj/O = new eq_path
 				H.equip_in_one_of_slots(O, slots)
 
-// Convert assassinate to non-lethal objective as a stopgap.
 /datum/objective/assassinate
 	name = "assasinate"
 	var/target_role_type=0
@@ -166,7 +165,7 @@ GLOBAL_LIST_EMPTY(objectives)
 /datum/objective/assassinate/update_explanation_text()
 	..()
 	if(target && target.current)
-		explanation_text = "Teach [target.name], the [!target_role_type ? target.assigned_role : target.special_role] a lesson."
+		explanation_text = "Assassinate [target.name], the [!target_role_type ? target.assigned_role : target.special_role]."
 	else
 		explanation_text = "Free Objective"
 
@@ -179,7 +178,7 @@ GLOBAL_LIST_EMPTY(objectives)
 /datum/objective/assassinate/internal/update_explanation_text()
 	..()
 	if(target && !target.current)
-		explanation_text = "Teach [target.name] a lesson, who was obliterated"
+		explanation_text = "Assassinate [target.name], who was obliterated"
 
 /datum/objective/mutiny
 	name = "mutiny"

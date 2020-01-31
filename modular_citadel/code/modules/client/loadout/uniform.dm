@@ -1,13 +1,3 @@
-/datum/gear/inconspicuousharness
-	name = "Inconspicuous harness"
-	category = SLOT_W_UNIFORM
-	path = /obj/item/clothing/under/inconspicuousharness
-
-/datum/gear/inconspicuousplusharness
-	name = "Inconspicuous plus harness"
-	category = SLOT_W_UNIFORM
-	path = /obj/item/clothing/under/inconspicuousplusharness
-
 /datum/gear/suitblack
 	name = "Black suit"
 	category = SLOT_W_UNIFORM
