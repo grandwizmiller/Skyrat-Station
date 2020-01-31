@@ -51,7 +51,7 @@ SUBSYSTEM_DEF(input)
 			"O" = "ooc",
 			"L" = "looc",
 			"T" = "say_special",
-			"T" = "say_special",
+			"M" = "me_special",
 			"Back" = "\".winset \\\"input.text=\\\"\\\"\\\"\"", // This makes it so backspace can remove default inputs
 			"Any" = "\"KeyDown \[\[*\]\]\"",
 			"Any+UP" = "\"KeyUp \[\[*\]\]\"",
