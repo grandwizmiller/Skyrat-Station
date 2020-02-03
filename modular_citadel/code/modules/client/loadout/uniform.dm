@@ -270,18 +270,6 @@
 	path = /obj/item/clothing/under/polychromic/kilt
 	cost = 3
 
-/datum/gear/polyskirt
-	name = "Polychromic Skirt"
-	category = SLOT_W_UNIFORM
-	path = /obj/item/clothing/under/polychromic/skirt
-	cost = 3
-
-/datum/gear/polyshirt
-	name = "Polychromic Jumpsuit"
-	category = SLOT_W_UNIFORM
-	path = /obj/item/clothing/under/polychromic/jumpsuit
-	cost = 3
-
 /datum/gear/polyshorts
 	name = "Polychromic Shorts"
 	category = SLOT_W_UNIFORM
