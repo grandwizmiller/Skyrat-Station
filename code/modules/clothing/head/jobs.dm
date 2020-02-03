@@ -131,12 +131,12 @@
 
 /obj/item/clothing/head/beret/purple
 	name = "purple beret"
-	desc = "A purple beret."
+	desc = "A purple beret, fit for a saint."
 	icon_state = "beret_purple"
 
 /obj/item/clothing/head/beret/blue
 	name = "blue beret"
-	desc = "A blue beret"
+	desc = "Perfect for a peacekeeping mission, or a paratrooper drop!"
 	icon_state = "beret_blue"
 
 /obj/item/clothing/head/beret/highlander
