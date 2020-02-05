@@ -64,13 +64,13 @@
 	name = "Special scarf"
 	category = SLOT_NECK
 	path = /obj/item/clothing/neck/scarf/zomb
-	ckeywhitelist = list("zombierobin")
+
 
 /datum/gear/redmadcoat
 	name = "The Mad's labcoat"
 	category = SLOT_WEAR_SUIT
 	path = /obj/item/clothing/suit/toggle/labcoat/mad/red
-	ckeywhitelist = list("zombierobin")
+	restricted_roles = list("Geneticist","Research Director","Scientist", "Roboticist")
 
 /datum/gear/santahat
 	name = "Santa hat"
@@ -360,6 +360,7 @@ datum/gear/darksabresheath
 	category = SLOT_WEAR_SUIT
 	path = /obj/item/clothing/under/mimeoveralls
 	cost = 1
+	restricted_roles = list("Mime")
 
 /datum/gear/soulneck
 	name = "Soul Necklace"
