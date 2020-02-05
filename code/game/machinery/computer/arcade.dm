@@ -30,6 +30,9 @@
 		/obj/item/toy/spinningtoy = ARCADE_WEIGHT_TRICK,
 		/obj/item/toy/sword = ARCADE_WEIGHT_TRICK,
 		/obj/item/toy/sword/cx = ARCADE_WEIGHT_TRICK,
+		/obj/item/toy/sword/darksabre = ARCADE_WEIGHT_TRICK,
+		/obj/item/toy/gun/m41 = ARCADE_WEIGHT_TRICK
+
 		/obj/item/toy/talking/AI = ARCADE_WEIGHT_USELESS,
 		/obj/item/toy/talking/codex_gigas = ARCADE_WEIGHT_USELESS,
 		/obj/item/toy/talking/griffin = ARCADE_WEIGHT_USELESS,
@@ -70,6 +73,7 @@
 		/obj/item/clothing/mask/fakemoustache/italian = ARCADE_WEIGHT_RARE,
 		/obj/item/clothing/suit/hooded/wintercoat/ratvar/fake = ARCADE_WEIGHT_TRICK,
 		/obj/item/clothing/suit/hooded/wintercoat/narsie/fake = ARCADE_WEIGHT_TRICK
+		/obj/item/storage/belt/sabre/darksabre = ARCADE_WEIGHT_TRICK
 	)
 
 	light_color = LIGHT_COLOR_GREEN
