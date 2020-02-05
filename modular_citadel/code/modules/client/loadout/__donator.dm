@@ -483,3 +483,5 @@ datum/gear/darksabresheath
 	category = SLOT_SHOES
 	path = /obj/item/clothing/shoes/sneakers/mikuleggings
 	ckeywhitelist = list("grandvegeta")
+
+	//i've literally just added this line for the thingy, its driving me nuts
