@@ -133,10 +133,10 @@
 	cost = 1
 
 /datum/gear/reecesgreatcoat
-	name = "Green Great Coat"
+	name = "Reece's Great Coat"
 	category = SLOT_WEAR_SUIT
 	path = /obj/item/clothing/suit/trenchcoat/green
-	cost = 3
+	ckeywhitelist = list("geemiesif")
 
 /datum/gear/russianflask
 	name = "Russian flask"
